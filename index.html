@@ -11,7 +11,7 @@
 </head>
 <body>
     <!--MODAL-->
-        <div class="modal-background">
+        <div class="modal-background" id="modal-edad">
             <div class="modal-fade"  tabindex="-1">
                 <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
@@ -23,10 +23,10 @@
                             ¿ERES MAYOR DE EDAD?
                         </h4>
                         <div id="boton-modal">
-                            <button class="btn btn-danger" data-bs-dismiss="modal" id="boton-redondo">
+                            <button class="btn btn-danger" data-bs-dismiss="modal" id="boton-redondo-si">
                                 Sí
                             </button>
-                            <button class="btn btn-outline-danger" id="boton-redondo">
+                            <button class="btn btn-outline-danger" id="boton-redondo-no">
                                 No
                             </button>
                         </div>
@@ -42,43 +42,58 @@
 
 
     <!--CONTENIDO PÁGINA 1-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="https://picsum.photos/id/237/20/30" alt="">
-                    BARDA
-                </a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://picsum.photos/id/237/20/30" alt="">
+                BARDA
+            </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="col-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                Historia
-                            </a>
-                        </li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="col-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            Historia
+                        </a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                Productos
-                            </a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            Productos
+                        </a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                Contacto
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </nav>        
+        </div>
+    </nav>        
         
 
 
 
 </body>
+
+<script>
+    document.addEventListener('DOMContentLoaded',function(){
+        const modal = document.getElementById('modal-edad');
+        const botonCerrar = document.getElementById('boton-redondo-si');
+    
+        modal.style.display = 'flex';
+        botonCerrar.addEventListener('click', function(){
+            modal.classList.add('modal-hidden');
+            setTimeout(function(){
+                modal.style.display = 'none';
+            },500);
+        });
+    });
+</script>
 </html>
