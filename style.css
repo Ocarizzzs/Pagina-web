@@ -38,4 +38,12 @@
         text-align: center;
     }
 
+    #elementos-navbar{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .navbar-brand{
+        margin-left: 10px;
+    }
     
