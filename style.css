@@ -46,4 +46,25 @@
     .navbar-brand{
         margin-left: 10px;
     }
-    
+
+/*PRIMER APARTADO*/
+    .apartado-1{
+        background-color: #D8BD96;
+    }
+
+    .titulo-1{
+        padding: 15rem;
+    }
+
+/*SEGUNDO APARTADO*/
+    .apartado-2{
+        background-color: #282828;
+    }
+
+    #columna{
+        padding: 5rem;
+    }
+
+    #col-4{
+        color: #D8BD96;
+    }
