@@ -48,13 +48,13 @@
     }
 
 /*PRIMER APARTADO*/
-    .apartado-1{
-        background-color: #D8BD96;
-    }
-
-    .titulo-1{
-        padding: 15rem;
-    }
+.imagenfondoapartado1{
+    background-image: url(fondo\ barda.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*SEGUNDO APARTADO*/
     .apartado-2{
