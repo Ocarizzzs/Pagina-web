@@ -90,3 +90,8 @@
             font-size:80px ;color: rgb(255, 115, 0);
             margin-top: ;
         }
+        carrusel
+        .carousel-item img{
+height: 70px;
+width: 100%;
+        }
