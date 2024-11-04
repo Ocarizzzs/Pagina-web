@@ -87,11 +87,21 @@
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 120px;
     }
-        @font-face {
-            font-family:"DUST";
-            src:url(Dust West.otf);
-            font-weight: normal;
-        }
+
+                /*TIPOGRAFÍA EXTERNA*/
+                    @font-face {
+                        font-family:"DUST";
+                        src: url(fuentes/DustWest.otf) format("opentype");  
+                        font-weight: normal;
+                        font-style: normal;
+                    }
+                            /*LO QUE HAY QUE PONER PARA USARLA*/
+                                    /*
+                                    .pruebadetipografía{
+                                        font-family: "DUST", sans-serif;
+                                    }*/
+
+
 
     .subtitulosapartado2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -142,10 +152,14 @@
             }
 
 
-
     
     /*CARRUSEL*/
         .carousel-item img{
-            height: 70px;
+            height: 30rem;
+            width: auto;
+            max-width: 100%;
+        }
+        .carousel-inner{
+            height: 30rem;
             width: 100%;
         }
