@@ -159,6 +159,7 @@
             width: auto;
             max-width: 100%;
             object-fit: cover;
+            background-color: #000000;
         }
         .carousel-inner{
             height: 30rem;
