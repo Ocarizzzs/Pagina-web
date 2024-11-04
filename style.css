@@ -158,8 +158,13 @@
             height: 30rem;
             width: auto;
             max-width: 100%;
+            object-fit: cover;
         }
         .carousel-inner{
             height: 30rem;
             width: 100%;
+        }
+        #imgcarrusel{
+            padding-left: 50px;
+            padding-right: 50px;
         }
