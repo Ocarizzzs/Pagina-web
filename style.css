@@ -99,28 +99,53 @@
         color: rgb(255, 115, 0);
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 800px) {
         .titulosapartado2 {
-            font-size: 85px;
+            font-size: 65px;
         }
         .subtitulosapartado2 {
-            font-size: 55px;
+            font-size: 45px;
+        }
+        .textocolumna{
+            font-size: 14px;
         }
     }
     
     @media (max-width: 576px) {
         .titulosapartado2 {
-            font-size: 50px;
+            font-size: 35px;
         }
         .subtitulosapartado2 {
-            font-size: 30px;
+            font-size: 25px;
+        }
+        .textocolumna{
+            font-size: 10px;
         }
     }
+
+
+    /*TERCER APARTADO*/
+        .apartado3{
+            padding: 2rem;
+            background-color: #000000;
+        }
+        #filasIm{
+            margin: 1rem;
+        }
+
+        /*HOVER PARA QUE CUANDO PASAS EL RATÓN POR ENCIMA APAREZCA EL MARCO*/
+            .hover-img{
+                transition: border 0.3s ease;
+            }
+            .hover-img:hover{
+                border: 6px solid white;
+            }
+
 
 
     
     /*CARRUSEL*/
-    .carousel-item img{
-        height: 70px;
-        width: 100%;
-    }
+        .carousel-item img{
+            height: 70px;
+            width: 100%;
+        }
