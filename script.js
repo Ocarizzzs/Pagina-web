@@ -12,3 +12,14 @@
         });
     });
 
+
+
+/*LETRAS ESCRITAS*/
+    var typed = new Typed("#typed-text", {
+        strings: [
+            "La esencia de Asturias en cada cerveza artesanal",
+            "Sabor auténtico, sabor tradicional",
+        ],
+        typeSpeed: 80,
+        loop: true,
+    });
