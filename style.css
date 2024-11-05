@@ -101,7 +101,12 @@
                                         font-family: "DUST", sans-serif;
                                     }*/
 
-
+                                    @font-face {
+                                        font-family:"AMARILLO";
+                                        src: url(fuentes/Amarillo.otf) format("opentype");  
+                                        font-weight: normal;
+                                        font-style: normal;
+                                    }
 
     .subtitulosapartado2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -169,3 +174,54 @@
             padding-left: 50px;
             padding-right: 50px;
         }
+
+ /*PAGINA2*/
+         .fondopagina2{
+background-image opacity: 50%;: url(fondo\ pag2.jpg);
+background-color: black;
+        }
+        .content-section {
+            padding-right: 15px;
+          }
+          .sticky-container {
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+          }
+          .image-sticky {
+            position: -webkit-sticky; /* Compatibilidad con navegadores */
+            position: sticky;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+            max-width: none;
+                
+            }
+            .tituloapartado1pag2{
+                font-family: "DUST", sans-serif; color: rgb(245, 110, 14);
+                margin-top: 5rem;
+                font-size: 130px ;
+                margin-left: 4rem;
+            }
+            .subtituloapartado1pag2{
+                font-family: "AMARILLO", sans-serif; color: rgb(255, 255, 255);
+               font-size: 100px;
+               margin-top: -3rem;
+            }
+            .parrafoapartado1pag2{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+                font-size: 20px; color: white;
+                padding: 30px;
+
+            }
+            .tituloapartado1pag2tipo2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+color: white;margin-top: 7rem; font-size: 50px;
+
+            }
+            .subtituloapartado1pag2tipo2{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+color: rgb(245, 110, 14);margin-top: -1rem; font-size: 70px;
+            }
