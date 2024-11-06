@@ -27,12 +27,12 @@
 
 
 /*ANIMACIÓN PARA QUE VAYAN APARECIENDO LOS APARTADOS*/
-ScrollReveal().reveal(".partes-apareciendo > div", {
-    delay: 250,
-    distance: "50px",
-    interval: 100,
-    origin: "bottom",
-    scale: 0.9,
-    reset: true,
-    duration: 600,
-});
+    ScrollReveal().reveal(".partes-apareciendo > div", {
+        delay: 250,
+        distance: "50px",
+        interval: 100,
+        origin: "bottom",
+        scale: 0.9,
+        reset: true,
+        duration: 600,
+    });
