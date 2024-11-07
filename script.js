@@ -35,3 +35,13 @@
         scale: 0.9,
         duration: 600,
     });
+
+
+
+/*SEGUNDO MODAL*/
+    const myModal = document.getElementById('myModal')
+    const myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', () => {
+    myInput.focus()
+    })
