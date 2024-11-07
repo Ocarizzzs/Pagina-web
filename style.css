@@ -177,7 +177,6 @@
             width: auto;
             max-width: 100%;
             object-fit: cover;
-            background-color: #000000;
         }
         .carousel-inner{
             height: 30rem;
@@ -190,28 +189,28 @@
 
  /*PAGINA2*/
          .fondopagina2{
-background-image opacity: 50%;: url(fondo\ pag2.jpg);
-background-color: black;
+background-image: url(fondo\ pag2.jpg);
         }
+        /* APARTADO1*/
         .content-section {
             padding-right: 15px;
           }
           .sticky-container {
-            position: relative;
             display: flex;
-            align-items: flex-start;
+            flex-wrap: wrap;
           }
-          .image-sticky {
-            position: -webkit-sticky; /* Compatibilidad con navegadores */
+        
+          .sticky-image {
             position: sticky;
-            top: 0;
-            right: 0;
-            width: 100%;
-            height: 100vh;
-            object-fit: cover;
-            max-width: none;
+            top: 0; 
+            right: 0; 
+            width: 100%; 
+            max-width: 400px; 
+          }
+          
+        
                 
-            }
+            
             .tituloapartado1pag2{
                 font-family: "DUST", sans-serif; color: rgb(245, 110, 14);
                 margin-top: 7rem;
@@ -224,10 +223,10 @@ background-color: black;
                margin-top: -3rem;
             }
             .parrafoapartado1pag2{
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-                font-size: 20px; color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif; 
+                font-size: 17px; color: white;
                 padding: 10px 50PX 10px; font-weight: lighter;
-                text-align: left;
+                text-align: center;
 
             }
             .tituloapartado1pag2tipo2{
@@ -237,5 +236,89 @@ color: white;margin-top: 5rem; font-size: 50px;
             }
             .subtituloapartado1pag2tipo2{
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-color: rgb(245, 110, 14);margin-top: -1rem; font-size: 70px; FON
+color: rgb(245, 110, 14);margin-top: -1rem; font-size: 70px; 
             }
+            .img-fluid {
+                width: 500px ;
+                height: 270px;
+                margin-top: 10px;
+                margin-bottom: 30px;
+                
+            }
+
+          /* APARTADO2*/
+.fondo-responsive {
+    background-image: url('fondocervezas.jpg'); 
+    background-position: center center; 
+    height: 600px;
+  }
+  
+
+  .img-fluid2  {
+    width: 130px; 
+    height: auto; 
+  }
+  
+  .col-12 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+  }
+  .fade-on-hover {
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+  }
+  
+  
+  .fade-on-hover:hover {
+    opacity: 0; 
+    transform: translateY(10px); 
+  }
+            /* APARTADO3*/
+
+  .apartado3{
+    background-color: white;
+    height: 300px;
+  }
+  .logomons{
+    width: 500px;
+  }
+             
+            /* APARTADO4*/
+
+  .apartado4{
+    background-image: url(fondo\ pag2.jpg);border: 6px solid coral;
+
+  }
+  #carouselExample2 .carousel-item img {
+    object-fit: contain; 
+    height: 450px; /
+    width: 100%; 
+    
+  }
+  
+  #carouselExample2 .carousel-control-prev-icon,
+  #carouselExample2 .carousel-control-next-icon {
+    background-color: black; 
+  }
+  
+  @media (max-width: 768px) {
+    #carouselExample2 .carousel-item img {
+      height: 250px; 
+    }
+  }
+#carousel-text2{
+    font-family: "DUST", sans-serif; color: rgb(255, 255, 255);
+    font-size: 150px;
+   text-align: left;
+   margin-top: -7rem;
+   padding: 0px 30px 0px;
+
+}  
+#carousel-description2{
+    text-align: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 0px 30px 0px;
+}
