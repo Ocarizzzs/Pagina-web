@@ -171,21 +171,7 @@
 
 
     
-    /*CARRUSEL*/
-        .carousel-item img{
-            height: 30rem;
-            width: auto;
-            max-width: 100%;
-            object-fit: cover;
-        }
-        .carousel-inner{
-            height: 30rem;
-            width: 100%;
-        }
-        #imgcarrusel{
-            padding-left: 50px;
-            padding-right: 50px;
-        }
+    
 
  /*PAGINA2*/
          .fondopagina2{
@@ -276,7 +262,7 @@ color: rgb(245, 110, 14);margin-top: -1rem; font-size: 70px;
   }
             /* APARTADO3*/
 
-  .apartado3{
+  .apartado3.2{
     background-color: white;
     height: 300px;
   }
