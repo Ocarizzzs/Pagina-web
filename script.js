@@ -33,6 +33,5 @@
         interval: 100,
         origin: "bottom",
         scale: 0.9,
-        reset: true,
         duration: 600,
     });

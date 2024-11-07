@@ -97,8 +97,8 @@
     }
 
     .titulosapartado2{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 120px;
+        font-family: "DUST", sans-serif;
+        font-size: 150px;
     }
 
                 /*TIPOGRAFÍA EXTERNA*/
@@ -123,7 +123,7 @@
 
     .subtitulosapartado2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 80px;
+        font-size: 70px;
         color: rgb(255, 115, 0);
     }
 
