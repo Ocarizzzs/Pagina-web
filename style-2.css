@@ -202,3 +202,25 @@
         font-size: 12px;
         padding: 0px 30px 0px;
     }
+
+
+
+/*TIPOGRAFÍA EXTERNA*/
+@font-face {
+    font-family:"DUST";
+    src: url(fuentes/DustWest.otf) format("opentype");  
+    font-weight: normal;
+    font-style: normal;
+}
+        /*LO QUE HAY QUE PONER PARA USARLA*/
+                /*
+                .pruebadetipografía{
+                    font-family: "DUST", sans-serif;
+                }*/
+
+                @font-face {
+                    font-family:"AMARILLO";
+                    src: url(fuentes/Amarillo.otf) format("opentype");  
+                    font-weight: normal;
+                    font-style: normal;
+                }
