@@ -1,11 +1,7 @@
 /*MODAL CARGA ANIMACIÓN*/
-    .modal-carga{
+    .modal-fullscreen{
         z-index: 9999;
-        margin: 0;
-        padding: 0;
     }
-
-    
 
     .modal-body{
         position: relative;
@@ -15,60 +11,52 @@
         justify-content: center;
         min-height: 100vh; /*Para que ocupe toda la pantalla*/
         padding: 0;
-        margin: 0;
     }
 
-    .contenedor{    
-        background-color: #946234;
-        height: 100vh;
-        width: 100vw;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .ani-cerveza{
-        position: relative;
-        background-color: #eca24d;
+    .ola-contenedor{
+        position: absolute;
+        bottom: 0;
+        left: 0;
         width: 100%;
         height: 100%;
-        outline: 0;    
         overflow: hidden;
-        margin: 0;
-        padding: 0;
+        background-color: rgb(107, 73, 21, 0.9);
+        clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%);  /*Para hacer la forma de las ondas, que son poco fluidas*/
+        animation: llenar 3s ease forwards;
     }
 
-    .ani-cerveza::before {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .ani-cerveza::after{
-        content: "";
-        position: absolute;    
-        background-color: #946234;    
-        height: 2300px;
-        width: 3000px;
-        bottom: -50%;
-        left: -50%;
+    .ola{
+        position: absolute;
+        width: 200%;
+        height: 200px;
+        background-color: rgba(255, 165, 31, 0.8);
         border-radius: 40%;
-        animation: spin 10s ease-out infinite;
+        opacity: 0.5;
+        animation: olaMovi 2s infinite linear;
     }
 
-
-    @keyframes spin {
-        0% {
-            transform: translateY(0) rotate(0deg);
-        }
-        100%{
-            transform: translateY(-85%) rotate(-500deg);
-        }
+    .ola:nth-child(2) {
+        bottom: 15px;
+        animation-duration: 2.5s;
+        opacity: 0.6;
     }
+
+    .ola:nth-child(3) {
+        bottom: 30px;
+        animation-duration: 3s;
+        opacity: 0.7;
+    }
+
+    /*Para hacer los movimientos de las olas*/
+        @keyframes olaMovi {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        @keyframes llenar {
+            0% { transform: translateY(100%); }
+            100% { transform: translateY(0); }
+        }
+
 
 
 /*PAGINA2*/
@@ -93,60 +81,84 @@
         top: 0; 
         right: 0; 
         width: 100%; 
-        max-width: 400px; 
+        max-width: 500px; 
+        
     }
     
     .tituloapartado1pag2{
         font-family: "DUST", sans-serif; color: rgb(245, 110, 14);
         margin-top: 7rem;
-        font-size: 130px ;
+        font-size: 160px ;
         margin-left: 4rem;
     }
 
     .subtituloapartado1pag2{
         font-family: "AMARILLO", sans-serif; color: rgb(255, 255, 255);
-       font-size: 100px;
+       font-size: 110px;
        margin-top: -3rem;
     }
+   
 
+.parrafoapartado1pag2intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 18px; color: white;
+        padding: 130px 70PX 10px; font-weight:bolder; 
+        text-align: center;
+}
     .parrafoapartado1pag2{
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        font-size: 17px; color: white;
-        padding: 10px 50PX 10px; font-weight: lighter;
+        font-size: 18px; color: white;
+        padding: 50px 70PX 50px; font-weight: lighter;
         text-align: center;
     }
 
     .tituloapartado1pag2tipo2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        color: white;margin-top: 5rem; font-size: 50px;
+        color: white;margin-top: 5rem; font-size:70px;
     }
 
     .subtituloapartado1pag2tipo2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        color: rgb(245, 110, 14);margin-top: -1rem; font-size: 70px; 
+        color: rgb(245, 110, 14);margin-top: -2rem; font-size: 110px; 
     }
 
     .img-fluid {
-        width: 500px ;
-        height: 270px;
+        width: 700px ;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .parrafoapartado1pag2final{
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 18px; color: white;
+        padding: 50px 70PX 90px; font-weight: lighter;
+        text-align: center;
+       
+    }
+
+    .imagenfinal{
+        width: 1000px ;
+        height: 400px;
         margin-top: 10px;
         margin-bottom: 30px;
     }
 
-
-
-
 /* APARTADO2*/
     .fondo-responsive {
-        background-image: url('fondocervezas.jpg'); 
-        background-position: center center; 
-        height: 600px;
+        background-image: url('fondocervezas2.jpg'); 
+        background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 650px;
+  border-top: 10px chocolate solid;
+  border-bottom: 40px chocolate solid;
     }
 
-    .img-fluid2  {
-        width: 130px; 
-        height: auto; 
+    .imagencerve  {
+        width: 450px; 
+        height: 600px; 
     }
+    
 
     .col-12 {
         display: flex; 
@@ -167,13 +179,15 @@
 
 
 /* APARTADO3*/
-    .apartado3.2{
+    .apartado3{
         background-color: white;
-        height: 300px;
+        height: 600px;
     }
 
     .logomons{
-        width: 500px;
+        width: 700px;
+        margin-top: 7rem;
+        margin-bottom: 6rem;
     }
      
 
@@ -185,7 +199,7 @@
 
     #carouselExample2 .carousel-item img {
         object-fit: contain; 
-        height: 450px;
+        height: 650px;
         width: 100%; 
     }
 
@@ -201,7 +215,7 @@
 
     #carousel-text2{
         font-family: "DUST", sans-serif; color: rgb(255, 255, 255);
-        font-size: 150px;
+        font-size: 170px;
         text-align: left;
         margin-top: -7rem;
         padding: 0px 30px 0px;
@@ -211,28 +225,53 @@
         text-align: left;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 12px;
+        font-size: 18px;
         padding: 0px 30px 0px;
     }
+   .btn2{
+    color: rgb(255, 255, 255) ;background-color: chocolate;  font-family: "DUST", 
+    sans-serif; font-size: 30px;
 
+    width: 140px;
+    height: 70px;
+   margin-left: -3rem;
+   border-style: groove;
+   }
+        .modal-body-2{
+            background-color: chocolate;
+            position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 30vh; /*Para que ocupe toda la pantalla*/
+        padding: 0;
+        }
+       
+    
+                            /*LO QUE HAY QUE PONER PARA USARLA*/
+                                    /*
+                                    .pruebadetipografía{
+                                        font-family: "DUST", sans-serif;
+                                    }*/
 
-
-/*TIPOGRAFÍA EXTERNA*/
-@font-face {
-    font-family:"DUST";
-    src: url(fuentes/DustWest.otf) format("opentype");  
-    font-weight: normal;
-    font-style: normal;
-}
-        /*LO QUE HAY QUE PONER PARA USARLA*/
-                /*
-                .pruebadetipografía{
-                    font-family: "DUST", sans-serif;
-                }*/
-
-                @font-face {
-                    font-family:"AMARILLO";
-                    src: url(fuentes/Amarillo.otf) format("opentype");  
-                    font-weight: normal;
-                    font-style: normal;
-                }
+                                    @font-face {
+                                        font-family:"AMARILLO";
+                                        src: url(fuentes/Amarillo.otf) format("opentype");  
+                                        font-weight: normal;
+                                        font-style: normal;
+                                    }
+                                    /*TIPOGRAFÍA EXTERNA*/
+                    @font-face {
+                        font-family:"DUST";
+                        src: url(fuentes/DustWest.otf) format("opentype");  
+                        font-weight: normal;
+                        font-style: normal;
+                    }
+                    .footer{
+                        background-color: black;
+                        color: white;
+                        margin-top: 1rem;
+                        
+                    }
+                    

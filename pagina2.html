@@ -19,17 +19,19 @@
 
 
   <!--MODAL 2 CARGA-->
-          <div class="modal fade show" id="modal-carga" style="display: block;">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="contenedor">
-                          <div class="ani-cerveza"></div>
-                        </div>
-                    </div>
+    <div class="modal fade show" id="modal-carga" style="display: block;">
+      <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+              <div class="modal-body">
+                <div class="ola-contenedor">
+                  <div class="ola"></div>
+                  <div class="ola"></div>
+                  <div class="ola"></div>
                 </div>
-            </div>
+              </div>
           </div>
+      </div>
+    </div>
 
 
 
@@ -74,14 +76,15 @@
     </nav>
 
 
-    
+        <!--seccion 1 sticky-->
+
     <div class="fondopagina2">
         <div class="row sticky-container text-center">
           <div class="col-md-8 col-sm-8 col-lg8 content-section">
             <h1 class="tituloapartado1pag2">Nuestras</h1>
             <h2 class="subtituloapartado1pag2">Cervezas</h2>
             
-            <p class="parrafoapartado1pag2"></p>
+            <p class="parrafoapartado1pag2intro">En Barda, cada cerveza es un tributo a la esencia de Asturias. Nos inspiramos en las montañas, los ríos y los paisajes verdes que nos rodean, fusionando tradición y creatividad en cada receta. Con ingredientes seleccionados y procesos cuidados, elaboramos cervezas únicas que llevan el sabor de nuestra tierra en cada sorbo.</p>
             
             <h3 class="tituloapartado1pag2tipo2">Cervezas con</h3>
             <h4 class="subtituloapartado1pag2tipo2">Historia</h4>
@@ -90,17 +93,17 @@
             
             <div class="row">
               <div class="col-md-6">
-                <img src="IMAGEN1 PAGINA 2.jpg" class="img-fluid rounded" alt="Imagen 1 de Cervezas">
+                <img src="IMAGEN2 PAGINA 2.png" class="img-fluid rounded" alt="Imagen 1 de Cervezas">
               </div>
               
               <div class="col-md-6">
-                <img src="IMAGEN1 PAGINA 2.jpg" class="img-fluid rounded" alt="Imagen 2 de Cervezas">
+                <img src="IMAGEN1 PAGINA 2.png" class="img-fluid rounded" alt="Imagen 2 de Cervezas">
               </div>
             </div>
       
             <p class="parrafoapartado1pag2">En Barda encontrarás opciones para todos los paladares. Nuestra gama incluye desde ligeras lagers hasta complejas ales y cervezas de temporada, cada una creada con la misma dedicación que <b>siempre</b>.</p>
-            <img src="IMAGEN1 PAGINA 2.jpg" class="img-fluid rounded" alt="Imagen 1 de Cervezas">
-            <p class="parrafoapartado1pag2">En Barda encontrarás opciones para todos los paladares. Nuestra gama incluye desde ligeras lagers hasta complejas ales y cervezas de temporada, cada una creada con la misma dedicación que <b>siempre</b>.</p>
+            <img src="IMAGEN3 PAGINA 2.png" class="imagenfinal" alt="Imagen 3 de Cervezas">
+            <p class="parrafoapartado1pag2final">En Barda encontrarás opciones para todos los paladares. Nuestra gama incluye desde ligeras lagers hasta complejas ales y cervezas de temporada, cada una creada con la misma dedicación que <b>siempre</b>.</p>
 
           </div>
       
@@ -109,27 +112,29 @@
           </div>
         </div>
       </div>
+          <!--seccion 2 cervezas transparentes-->
+
       <div class="sección2">
         
         <div class="container-fluid fondo-responsive">
             <div class="row">
               <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
-                <img src="CERVEZA1 APARTADO2 PAG2.png" class="img-fluid2 fade-on-hover" alt="Imagen 1">
+                <img src="lata1.png" class="imagencerve fade-on-hover" alt="Imagen 1">
               </div>
               
               <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
-                <img src="CERVEZA2 APARTADO2 PAG2.png" class="img-fluid2 fade-on-hover" alt="Imagen 2">
+                <img src="lata2.png" class="imagencerve fade-on-hover" alt="Imagen 2">
               </div>
               
               <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
-                <img src="CERVEZA3 APARTADO2 PAG2.png" class="img-fluid2 fade-on-hover" alt="Imagen 3">
+                <img src="lata3.png" class="imagencerve fade-on-hover" alt="Imagen 3">
               </div>
             </div>
           </div>
-          
-          
-        <p>sssss</p>
-      <div class="apartado3.2">
+      </div>
+                    <!--seccion 3 montruos de asturias-->
+
+      <div class="apartado3">
       <div>
       <div class="container-fluid ">
         <div class="row justify-content-center align-items-center">
@@ -140,45 +145,87 @@
         </div>
       </div>
     </div>
+     <!--seccion 4 cqarrusel-->
     <div class="apartado4">
-<p>aaaa</p>
 
- 
 
   <div class="container mt-5">
     <div class="row align-items-center">
       <div class="col-md-6">
         <h2 id="carousel-text2">Trasgu</h2>
         <p id="carousel-description2">una deliciosa cerveza asturiana que captura la esencia de la región en cada sorbo. Con su nombre inspirado en el mito celta del Trasgu, un ser travieso y alegre, esta cerveza refleja la tradición y el carácter vibrante de Asturias..</p>
-        <button class="btn btn-primary" id="showFormButton">Ir al formulario</button>
+
+
+        <div class="container text-center mt-5">
+          <button type="button" class="btn2 btn-primary" data-bs-toggle="modal" data-bs-target="#formularioModal">
+              comprar
+          </button>
+      </div>
+  
+      <!-- Modal con el formulario -->
+      <div class="modal fade" id="formularioModal" tabindex="-1" aria-labelledby="formularioModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="formularioModalLabel">Formulario de Contacto</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body-2">
+                      <!-- Formulario -->
+                      <form class="formulario">
+                          <div class="mb-3">
+                              <label for="nombre" class="form-label">Numero de cuenta</label>
+                              <input type="text" class="form-control" id="numerocuenta" placeholder="Ingresa tu nombre">
+                          </div>
+                          <div class="mb-3">
+                              <label for="email" class="form-label">Correo Electrónico</label>
+                              <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo">
+                          </div>
+                          <div class="mb-3">
+                              <label for="mensaje" class="form-label">Mensaje</label>
+                              <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                          </div>
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Scripts de Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+        
+        <div class="modal fade" id="cuestionarioModal" tabindex="-1" aria-labelledby="cuestionarioModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="cuestionarioModalLabel">Cuestionario</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+  
  
     </div>
-    <div id="formulario" class="container mt-5" style="display: none;">
-        <h3>Introduce tus datos</h3>
-        <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="name" placeholder="Introduce tu nombre">
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Correo Electrónico</label>
-            <input type="email" class="form-control" id="email" placeholder="Introduce tu correo electrónico">
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="message" rows="3" placeholder="Introduce tu mensaje"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-      </div>
+    
+        
+      
       <div class="col-md-6">
         <div id="carouselExample2" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner" id="carouselExample2Inner">
             <div class="carousel-item active" id="carouselExample2Item1">
-              <img src="CERVEZA1 APARTADO2 PAG2.png" class="d-block w-100" alt="Imagen 1">
+              <img src="CERVEZA2 APARTADO2 PAG2.png" class="d-block w-100" alt="Imagen 1">
             </div>
             <div class="carousel-item" id="carouselExample2Item2">
-              <img src="CERVEZA2 APARTADO2 PAG2.png" class="d-block w-100" alt="Imagen 2">
+              <img src="CERVEZA1 APARTADO2 PAG2.png" class="d-block w-100" alt="Imagen 2">
             </div>
             <div class="carousel-item" id="carouselExample2Item3">
               <img src="CERVEZA3 APARTADO2 PAG2.png" class="d-block w-100" alt="Imagen 3">
@@ -204,7 +251,7 @@
     const texts2 = [
       { title: 'Trasgu', description: 'una deliciosa cerveza asturiana que captura la esencia de la región en cada sorbo. Con su nombre inspirado en el mito celta del Trasgu, un ser travieso y alegre, esta cerveza refleja la tradición y el carácter vibrante de Asturias..' },
       { title: 'Cuelebre', description: ' Esta cerveza, elaborada con los mejores ingredientes locales, refleja la fuerza y el carácter de la región. Con un sabor robusto y equilibrado, Cuelebre ofrece una combinación perfecta de amargor y suavidad, con matices de malta y lúpulo que invitan a disfrutar de su frescura en cada sorbo.' },
-      { title: 'Xana', description: 'Este es el texto para la tercera imagen del carrusel.' }
+      { title: 'Xana', description: 'Con una espuma suave y un sabor equilibrado entre el amargor y la dulzura, Xana es ideal para quienes buscan una experiencia refrescante con un toque de misterio. Perfecta para acompañar momentos de tranquilidad o celebraciones, esta cerveza invita a descubrir los secretos de Asturias en cada sorbo..' }
     ];
 
     const carousel2 = document.getElementById('carouselExample2');
@@ -216,15 +263,8 @@
       titleElement2.textContent = texts2[activeIndex].title;
       descriptionElement2.textContent = texts2[activeIndex].description;
     });
-    document.getElementById("showFormButton").addEventListener("click", function() {
-      const formSection = document.getElementById("formulario");
-      // Alternar la visibilidad del formulario
-      if (formSection.style.display === "none" || formSection.style.display === "") {
-        formSection.style.display = "block"; // Mostrar formulario
-      } else {
-        formSection.style.display = "none"; // Ocultar formulario
-      }
-    });
+    
+    
   </script>
 
     </div>
@@ -238,4 +278,34 @@
 
       <script src="./script-2.js"></script>
 </body>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <h1>Barda</h5>
+        <p>Cerveza artesanal asturiana</p>
+        <p>
+          Dirección:<br>
+          Calle Azcárraga, 7<br>
+          33001, Oviedo, Asturias, España
+        </p>
+        <p><strong>Horario:</strong> Lunes a viernes, 10:00 - 18:00</p>
+      </div>
+      
+      <!-- Columna 2: Información de contacto y redes sociales -->
+      <div class="col-md-6 mb-3">
+        <h1>Contáctanos</h1>
+        <p>Teléfono: +34 123 456 789</p>
+        <p>Email: info@bardacervezas.com</p>
+        
+        <h6>Síguenos en redes sociales</h6>
+        <div>
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 </html>
