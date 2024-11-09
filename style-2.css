@@ -71,6 +71,25 @@
     }
 
 
+/*NAVBAR*/
+    .nav-item{
+        text-align: center;
+    }
+
+    #elementos-navbar{
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 20px;
+    }
+
+    .navbar-brand{
+        margin-left: 10px;
+    }
+
+    #logo-navbar{
+        width: 70px;
+        height: 70px;
+    }
 
 /*PAGINA2*/
     .fondopagina2{
