@@ -116,6 +116,8 @@
         max-width: 500px; 
         
     }
+
+    
     
     .tituloapartado1pag2{
         font-family: "DUST", sans-serif; color: rgb(245, 110, 14);
@@ -131,12 +133,13 @@
     }
    
 
-.parrafoapartado1pag2intro{
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        font-size: 18px; color: white;
-        padding: 130px 70PX 10px; font-weight:bolder; 
-        text-align: center;
-}
+    .parrafoapartado1pag2intro{
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            font-size: 18px; color: white;
+            padding: 130px 70PX 10px; font-weight:bolder; 
+            text-align: center;
+    }
+
     .parrafoapartado1pag2{
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
         font-size: 18px; color: white;
@@ -169,21 +172,20 @@
     }
 
     .imagenfinal{
-        width: 1000px ;
-        height: 400px;
-        margin-top: 10px;
-        margin-bottom: 30px;
+        max-width: 100%;
+        margin-top: 1rem;
     }
+
 
 /* APARTADO2*/
     .fondo-responsive {
         background-image: url('fondocervezas2.jpg'); 
         background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center; 
-  height: 650px;
-  border-top: 10px chocolate solid;
-  border-bottom: 40px chocolate solid;
+        background-repeat: no-repeat; 
+        background-position: center; 
+        height: 650px;
+        border-top: 10px chocolate solid;
+        border-bottom: 40px chocolate solid;
     }
 
     .imagencerve  {
