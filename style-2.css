@@ -118,7 +118,6 @@
     }
 
     
-    
     .tituloapartado1pag2{
         font-family: "DUST", sans-serif; color: rgb(245, 110, 14);
         margin-top: 7rem;
@@ -182,15 +181,16 @@
         background-image: url('fondocervezas2.jpg'); 
         background-size: cover; 
         background-repeat: no-repeat; 
-        background-position: center; 
-        height: 650px;
+        background-position: center;
+        width: 100%;
+        height: auto;
         border-top: 10px chocolate solid;
         border-bottom: 40px chocolate solid;
     }
 
     .imagencerve  {
-        width: 450px; 
-        height: 600px; 
+        width: 100%; 
+        height: auto; 
     }
     
 
