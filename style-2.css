@@ -231,20 +231,15 @@
         background-image: url(fondo\ pag2.jpg);border: 6px solid coral;
     }
 
+
     #carouselExample2 .carousel-item img {
         object-fit: contain; 
-        height: 650px;
+        height: 850px;
         width: 100%; 
     }
 
     #carouselExample2 .carousel-control-prev-icon, #carouselExample2 .carousel-control-next-icon {
         background-color: black; 
-    }
-
-    @media (max-width: 768px) {
-        #carouselExample2 .carousel-item img {
-        height: 250px; 
-        }
     }
 
     #carousel-text2{
