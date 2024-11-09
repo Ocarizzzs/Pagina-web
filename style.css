@@ -241,31 +241,32 @@
             }
             @media (max-width: 576px) {
                 .corrido-aparece {
-                    font-size: 3px;
+                    font-size: 2px;
                     margin-left: 0%;
                     margin-right: 0%;
                 }
                 .titulo-aparece {
-                    font-size: 8px;
+                    font-size: 5px;
                 }
                 .corrido-aparece2 {
-                    font-size: 3px;
+                    font-size: 2px;
                     margin-left: 0%;
                     margin-right: 0%;
                 }
                 .titulo-aparece2 {
-                    font-size: 8px;
+                    font-size: 5px;
                 }
                 .corrido-aparece3{
-                    font-size: 3px;
+                    font-size: 2px;
                     margin-left: 0%;
                     margin-right: 0%;
                 }
                 .titulo-aparece3 {
-                    font-size: 8px;
+                    font-size: 5px;
                 }
-                .apartado3{
-                    margin: 3%;
+                .partesapareciendo{
+                    margin: 1px;
+                    padding: 1px;
                 }
             }
 
