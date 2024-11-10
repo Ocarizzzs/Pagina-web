@@ -296,6 +296,22 @@
         .modal-footer{
             background-color: #362617; 
         }
+
+        @media (max-width: 1024px) {
+            #boton-formulario{
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 800px) {
+            #boton-formulario{
+                font-size: 18px;
+            }
+        }
+
+
+
+
        
     
                             /*LO QUE HAY QUE PONER PARA USARLA*/

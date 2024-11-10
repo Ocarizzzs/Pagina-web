@@ -28,6 +28,11 @@
         margin-left: 3rem;
     }
 
+    .boton-modal-no{
+        text-decoration: none;
+        color: red;
+    }
+
         /*INTENTO DE ANIMACIÓN PARA DESVANECER (lo hace rápido)*/
         .modal-fade{
             transition: opacity 0.3s ease-in-out;
@@ -340,7 +345,7 @@
                         font-size: 35px;
                     }
                     .boton-enlace{
-                        font-size: 18px;
+                        font-size: 18px !important;
                     }
                 }
                 @media (max-width: 800px) {
@@ -354,7 +359,7 @@
                         font-size: 28px;
                     }
                     .boton-enlace{
-                        font-size: 16px;
+                        font-size: 16px !important;
                     }
                 }
 
