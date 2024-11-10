@@ -134,27 +134,27 @@
         color: rgb(255, 106, 0);
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 1024px) {
         .titulosapartado2 {
-            font-size: 65px;
+            font-size: 100px;
         }
         .subtitulosapartado2 {
             font-size: 45px;
         }
         .textocolumna{
-            font-size: 14px;
+            font-size: 18px;
         }
     }
     
-    @media (max-width: 576px) {
+    @media (max-width: 800px) {
         .titulosapartado2 {
-            font-size: 35px;
+            font-size: 50px;
         }
         .subtitulosapartado2 {
             font-size: 25px;
         }
         .textocolumna{
-            font-size: 10px;
+            font-size: 12px;
         }
     }
 
@@ -220,9 +220,9 @@
         font-size: 20px;
     }
 
-            @media (max-width: 800px) {
+            @media (max-width: 1024px) {
                 .corrido-aparece {
-                    font-size: 15px;
+                    font-size: 18px;
                     margin-left: 15%;
                     margin-right: 15%;
                 }
@@ -230,50 +230,46 @@
                     font-size: 25px;
                 }
                 .corrido-aparece2 {
-                    font-size: 15px;
-                    margin-left: 8%;
-                    margin-right: 8%;
+                    font-size: 18px;
+                    margin-left: 10%;
+                    margin-right: 10%;
                 }
                 .titulo-aparece2 {
                     font-size: 25px;
                 }
                 .corrido-aparece3{
-                    font-size: 15px;
-                    margin-left: 2%;
-                    margin-right: 2%;
+                    font-size: 18px;
+                    margin-left: 5%;
+                    margin-right: 5%;
                 }
                 .titulo-aparece3 {
                     font-size: 25px;
                 }
             }
-            @media (max-width: 576px) {
+            @media (max-width: 800px) {
                 .corrido-aparece {
-                    font-size: 2px;
-                    margin-left: 0%;
-                    margin-right: 0%;
+                    font-size: 12px;
+                    margin-left: 2%;
+                    margin-right: 2%;
                 }
                 .titulo-aparece {
-                    font-size: 5px;
+                    font-size: 18px;
                 }
                 .corrido-aparece2 {
-                    font-size: 2px;
-                    margin-left: 0%;
-                    margin-right: 0%;
+                    font-size: 12px;
+                    margin-left: 2%;
+                    margin-right: 2%;
                 }
                 .titulo-aparece2 {
-                    font-size: 5px;
+                    font-size: 18px;
                 }
                 .corrido-aparece3{
-                    font-size: 2px;
-                    margin-left: 0%;
-                    margin-right: 0%;
+                    font-size: 12px;
+                    margin-left: 2%;
+                    margin-right: 2%;
                 }
                 .titulo-aparece3 {
-                    font-size: 5px;
-                }
-                .partesapareciendo{
-                    margin: 1px;
-                    padding: 1px;
+                    font-size: 18px;
                 }
             }
 
@@ -315,8 +311,9 @@
                     color: black;
                 }
                 #parrafocarrusel{
-                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 
-                    sans-serif;font-size: 24px;color: black;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+                    font-size: 24px;
+                    color: black;
                     margin-top: -1rem;
                     
                 }
@@ -326,9 +323,47 @@
                     
                 }
                 #pretitulocarrusel{
-                    font-family: 'Amarillo', 'Arial Narrow', Arial, sans-serif; font-size: 70px;
-                    font-weight: bold; color: rgb(255, 98, 0);
+                    font-family: 'Amarillo', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 70px;
+                    font-weight: bold;
+                    color: rgb(255, 98, 0);
                 }
+
+                @media (max-width: 1024px) {
+                    #titulocarrusel{
+                        font-size: 100px;
+                    }
+                    #parrafocarrusel{
+                        font-size: 18px;
+                    }
+                    #pretitulocarrusel{
+                        font-size: 35px;
+                    }
+                    .boton-enlace{
+                        font-size: 18px;
+                    }
+                }
+                @media (max-width: 800px) {
+                    #titulocarrusel{
+                        font-size: 85px;
+                    }
+                    #parrafocarrusel{
+                        font-size: 16px;
+                    }
+                    #pretitulocarrusel{
+                        font-size: 28px;
+                    }
+                    .boton-enlace{
+                        font-size: 16px;
+                    }
+                }
+
+
+
+
+
+
+
  /* Estilos para el botón */
  .boton-enlace {
     display: inline-block;
