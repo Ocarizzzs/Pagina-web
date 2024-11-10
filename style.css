@@ -63,6 +63,7 @@
         background-position: center;
         padding-left: 12rem;
         padding-top: 21rem;
+        border-bottom: 10px rgb(255, 110, 6) solid;
     }
 
     #columna-texto-mueve{
@@ -289,3 +290,69 @@
                 border: 6px solid white;
                 border-radius: 10px;
             }
+
+
+
+
+
+            .carousel-item img {
+                width: 100vw;
+                height: 100vh;
+                object-fit: cover;
+              }
+              .carousel-caption {
+                position: absolute;
+                top: 10%;
+                left: 5%;
+                text-align: left;
+                color: white;
+                border-radius: 5px;
+              }
+                #titulocarrusel{
+                    font-family: "DUST", sans-serif;
+                    font-size: 250px;
+                    color: black;
+                }
+                #parrafocarrusel{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 
+                    sans-serif;font-size: 24px;color: black;
+                    margin-top: -1rem;
+                    
+                }
+                .carrusel{
+                    border-bottom: 15px coral solid;
+                    border-top:15px coral solid;
+                    
+                }
+                #pretitulocarrusel{
+                    font-family: 'Amarillo', 'Arial Narrow', Arial, sans-serif; font-size: 70px;
+                    font-weight: bold; color: rgb(255, 98, 0);
+                }
+ /* Estilos para el botón */
+ .boton-enlace {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color:rgb(255, 98, 0);
+    color: white;
+    text-decoration: none;  
+    border-radius: 85px;    
+    text-align: center;
+    font-size: 30px;
+    transition: background-color 0.3s, transform 0.2s;  
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 9rem;
+    margin-top: 2rem;
+  }
+
+  /* Cambio de color al pasar el raton */
+  .boton-enlace:hover {
+    background-color: #583700;  
+    transform: scale(1.1);  
+  }
+
+  .footer{
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    }
