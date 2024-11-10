@@ -104,7 +104,8 @@
 
     .titulosapartado2{
         font-family: "DUST", sans-serif;
-        font-size: 150px;
+        font-size: 200px;
+        color: black;
     }
 
                 /*TIPOGRAFÍA EXTERNA*/
@@ -129,8 +130,8 @@
 
     .subtitulosapartado2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 70px;
-        color: rgb(255, 115, 0);
+        font-size: 75px;
+        color: rgb(255, 106, 0);
     }
 
     @media (max-width: 800px) {
