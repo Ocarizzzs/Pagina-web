@@ -96,6 +96,49 @@
         font-size: 35px;
     }
 
+            @media (max-width: 1024px) {
+                #typed-text{
+                    font-size: 20px;
+                }
+                .typed-cursor {
+                    font-size: 25px;
+                }
+                .apartado1{
+                    padding-left: 10rem;
+                    padding-top: 18rem;
+                    height: 600px;
+                    width: 100%;
+                }
+            }
+            @media (max-width: 800px) {
+                #typed-text{
+                    font-size: 16px;
+                }
+                .typed-cursor {
+                    font-size: 18px;
+                }
+                .apartado1{
+                    padding-left: 8rem;
+                    padding-top: 15rem;
+                    height: 500px;
+                    width: 100%;
+                }
+            }
+            @media (max-width: 576px) {
+                #typed-text{
+                    font-size: 14px;
+                }
+                .typed-cursor {
+                    font-size: 16px;
+                }
+                .apartado1{
+                    padding-left: 6rem;
+                    padding-top: 10rem;
+                    height: 400px;
+                    width: 100%;
+                }
+            }
+
 /*SEGUNDO APARTADO*/
     .apartado-2{
         background-image: url(../Images/images-p1/fondo\ apartado2.jpg);
