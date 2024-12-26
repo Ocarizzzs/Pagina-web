@@ -1,3 +1,11 @@
+/*PARA QUE NO DESBORDE*/
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
 /*MODAL CARGA ANIMACIÓN*/
     .modal-carga{
         z-index: 9999;
@@ -94,7 +102,7 @@
 
 /*PAGINA2*/
     .fondopagina2{
-        background-image: url(fondo\ pag2.jpg);
+        background-image: url(../Images/images-p2/fondo\ pag2.jpg);
 }
 
 
@@ -179,7 +187,7 @@
 
 /* APARTADO2*/
     .fondo-responsive {
-        background-image: url('fondocervezas2.jpg'); 
+        background-image: url('../Images/images-p2/fondocervezas2.jpg'); 
         background-size: cover; 
         background-repeat: no-repeat; 
         background-position: center;
@@ -229,7 +237,7 @@
 
 /* APARTADO4*/
     .apartado4{
-        background-image: url(fondo\ pag2.jpg);border: 6px solid coral;
+        background-image: url(../Images/images-p2/fondo\ pag2.jpg);border: 6px solid coral;
     }
 
 
@@ -322,14 +330,14 @@
 
                                     @font-face {
                                         font-family:"AMARILLO";
-                                        src: url(fuentes/Amarillo.otf) format("opentype");  
+                                        src: url(../fonts/Amarillo.otf) format("opentype");  
                                         font-weight: normal;
                                         font-style: normal;
                                     }
                                     /*TIPOGRAFÍA EXTERNA*/
                     @font-face {
                         font-family:"DUST";
-                        src: url(fuentes/DustWest.otf) format("opentype");  
+                        src: url(../fonts/DustWest.otf) format("opentype");  
                         font-weight: normal;
                         font-style: normal;
                     }

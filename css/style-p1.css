@@ -1,6 +1,14 @@
+/*PARA QUE NO DESBORDE*/
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+
 /*ELEMENTOS DEL MODAL*/
     .modal-background{
-        background-image: url("fondomayoredad.jpg");
+        background-image: url("../Images/images-p1/fondomayoredad.jpg");
         background-size: cover;
         position: fixed;
         width: 100%;
@@ -61,7 +69,7 @@
 
 /*PRIMER APARTADO*/
     .apartado1{
-        background-image:url(fondo\ barda.jpg);
+        background-image:url(../Images/images-p1/fondo\ barda.jpg);
         background-size: cover;
         width: 100%;
         height: 700px;
@@ -90,7 +98,7 @@
 
 /*SEGUNDO APARTADO*/
     .apartado-2{
-        background-image: url(fondo\ apartado2.jpg);
+        background-image: url(../Images/images-p1/fondo\ apartado2.jpg);
         background-size: cover;
         width: 100%;
         height: 100%;
@@ -116,7 +124,7 @@
                 /*TIPOGRAFÍA EXTERNA*/
                     @font-face {
                         font-family:"DUST";
-                        src: url(fuentes/DustWest.otf) format("opentype");  
+                        src: url(../fonts/DustWest.otf) format("opentype");  
                         font-weight: normal;
                         font-style: normal;
                     }
@@ -128,7 +136,7 @@
 
                                     @font-face {
                                         font-family:"AMARILLO";
-                                        src: url(fuentes/Amarillo.otf) format("opentype");  
+                                        src: url(../fonts/Amarillo.otf) format("opentype");  
                                         font-weight: normal;
                                         font-style: normal;
                                     }
