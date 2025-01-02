@@ -162,7 +162,7 @@
 
     .titulosapartado2{
         font-family: "DUST", sans-serif;
-        font-size: 200px;
+        font-size: 170px;
         color: black;
     }
 
@@ -188,7 +188,7 @@
 
     .subtitulosapartado2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 75px;
+        font-size: 65px;
         color: rgb(255, 106, 0);
     }
 
@@ -390,8 +390,8 @@
 
 
             .carousel-item img {
-                width: 100vw;
-                height: 100vh;
+                width: 100%;
+                height: 700px;
                 object-fit: cover;
               }
               .carousel-caption {
@@ -431,7 +431,7 @@
                         font-size: 100px;
                     }
                     #parrafocarrusel{
-                        font-size: 18px;
+                        font-size: 10px;
                     }
                     #pretitulocarrusel{
                         font-size: 35px;
@@ -452,6 +452,11 @@
                     }
                     .boton-enlace{
                         font-size: 16px !important;
+                    }
+                    .carousel-item img {
+                        width: 100%;
+                        height: 420px;
+                        
                     }
                 }
 
