@@ -45,6 +45,62 @@
         .modal-fade{
             transition: opacity 0.3s ease-in-out;
         }
+    
+
+        @media (max-width: 1024px) {
+            .modal-body{
+                padding:8rem;
+                margin-top: 4rem;
+            }
+            #boton-modal{
+                padding: 8px;
+            }
+            .titulomodal{
+                font-size: 35px;
+            }
+            .submodal{
+                font-size: 25px;
+            }
+            .corridomodal{
+                font-size: 15px;
+            }
+        }
+        @media (max-width: 800px) {
+            .modal-body{
+                padding:6rem;
+                margin-top: 4rem;
+            }
+            #boton-modal{
+                padding: 6px;
+            }
+            .titulomodal{
+                font-size: 30px;
+            }
+            .submodal{
+                font-size: 25px;
+            }
+            .corridomodal{
+                font-size: 14px;
+            }
+        }
+        @media (max-width: 576px) {
+            .modal-body{
+                padding:5rem;
+                margin-top: 5rem;
+            }
+            #boton-modal{
+                padding: 5px;
+            }
+            .titulomodal{
+                font-size: 20px;
+            }
+            .submodal{
+                font-size: 15px;
+            }
+            .corridomodal{
+                font-size: 12px;
+            }
+        }
 
 /*NAVBAR*/
     .nav-item{
@@ -516,5 +572,31 @@
   .footer{
     background-color: black;
     color: white;
-    margin-top: 1rem;
+    margin-top: 2rem;
     }
+
+    @media (max-width: 1024px) {
+        .titulofooter{
+            font-size: 30px;
+        }
+        .corridofooter{
+            font-size: 15px;
+        }
+    }
+    @media (max-width: 800px) {
+        .titulofooter{
+            font-size: 20px;
+        }
+        .corridofooter{
+            font-size: 12px;
+        }
+    }
+    @media (max-width: 576px) {
+        .titulofooter{
+            font-size: 16px;
+        }
+        .corridofooter{
+            font-size: 10px;
+        }
+    }
+    
