@@ -331,7 +331,8 @@ html, body {
     }
     .btn2{
         color: rgb(255, 255, 255) ;background-color: chocolate;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 
-        sans-serif; font-size: 40px;
+        sans-serif;
+        font-size: 40px;
         border-radius: 50px;
         width: 240px;
         height: 70px;
@@ -385,6 +386,10 @@ html, body {
                     height: 800px;
                     width: auto;
                 }
+                .btn2{
+                    width: 200px;
+                    height: 60px;
+                }
             }
 
             @media (max-width: 800px) {
@@ -407,6 +412,10 @@ html, body {
                     height: 700px;
                     width: auto;
                 }
+                .btn2{
+                    width: 180px;
+                    height: 50px;
+                }
             }
             @media (max-width: 576px) {
                 .apartado4{
@@ -427,6 +436,10 @@ html, body {
                 #carouselExample2{
                     height: 500px;
                     width: auto;
+                }
+                .btn2{
+                    width: 160px;
+                    height: 40px;
                 }
             }
 
