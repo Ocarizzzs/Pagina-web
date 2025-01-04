@@ -158,12 +158,16 @@ html, body {
 
     .tituloapartado1pag2tipo2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        color: white;margin-top: 5rem; font-size:70px;
+        color: white;
+        margin-top: 5rem;
+        font-size:70px;
     }
 
     .subtituloapartado1pag2tipo2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        color: rgb(245, 110, 14);margin-top: -2rem; font-size: 110px; 
+        color: rgb(245, 110, 14);
+        margin-top: -2rem;
+        font-size: 110px; 
     }
 
     .img-fluid {
@@ -183,6 +187,58 @@ html, body {
     .imagenfinal{
         max-width: 100%;
         margin-top: 1rem;
+    }
+
+    @media (max-width: 1024px) {
+        .tituloapartado1pag2{
+            font-size: 120px;
+        }
+        .subtituloapartado1pag2{
+            font-size: 90px;
+        }
+        .tituloapartado1pag2tipo2{
+            font-size: 60px;
+        }
+        .subtituloapartado1pag2tipo2{
+            font-size: 90px;
+        }
+        .parrafoapartado1pag2,.parrafoapartado1pag2intro,.parrafoapartado1pag2final{
+            font-size: 16px;
+        }
+    }
+    @media (max-width: 800px) {
+        .tituloapartado1pag2{
+            font-size: 100px;
+        }
+        .subtituloapartado1pag2{
+            font-size: 80px;
+        }
+        .tituloapartado1pag2tipo2{
+            font-size: 50px;
+        }
+        .subtituloapartado1pag2tipo2{
+            font-size: 80px;
+        }
+        .parrafoapartado1pag2,.parrafoapartado1pag2intro,.parrafoapartado1pag2final{
+            font-size: 14px;
+        }
+    }
+    @media (max-width: 576px) {
+        .tituloapartado1pag2{
+            font-size: 80px;
+        }
+        .subtituloapartado1pag2{
+            font-size: 60px;
+        }
+        .tituloapartado1pag2tipo2{
+            font-size: 40px;
+        }
+        .subtituloapartado1pag2tipo2{
+            font-size: 60px;
+        }
+        .parrafoapartado1pag2,.parrafoapartado1pag2intro,.parrafoapartado1pag2final{
+            font-size: 12px;
+        }
     }
 
 
